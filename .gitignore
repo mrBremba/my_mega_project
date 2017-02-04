@@ -3,11 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+blog.sqlite
+
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+static/
 env/
 build/
 develop-eggs/
@@ -19,13 +22,10 @@ lib/
 lib64/
 parts/
 sdist/
-static/
 var/
 *.egg-info/
 .installed.cfg
 *.egg
-
-blog.sqlite
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
