@@ -1,0 +1,11 @@
+body { 
+padding-top: 50px; 
+}
+
+.carousel-inner {
+	height: 300px;
+}
+
+.lenght {
+	width: 400px;
+}
