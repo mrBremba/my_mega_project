@@ -6,7 +6,7 @@ my_flask_app = Flask(__name__)
 
 @my_flask_app.route('/')
 def index():
-    return render_template('index.html', title="Self Cultivation App (SCA)")
+    return render_template('index.html')
 
 @my_flask_app.route('/registration/', methods=['POST'])
 def registration():
