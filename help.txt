@@ -1,2 +1,3 @@
-Install requirements from requirements.txt
+Before run python.py please install requirements from requirements.txt
+execute command in command line:
 pip install -r requirements.txt
