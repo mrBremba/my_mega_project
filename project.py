@@ -43,7 +43,7 @@ def user_error():
 
 @my_flask_app.route('/cabinet/')
 def cabinet():
-    return render_template('cabinet.html', title="Cabinet")
+    return render_template('cabinet.html', title="Личный кабинет")
 
 if __name__ == '__main__':
     Base.metadata.create_all(bind=engine)
